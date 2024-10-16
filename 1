@@ -2,3 +2,8 @@ raceDate="1016";
 php getodds.php $raceDate HV 8;
 php getwinodds.php $raceDate HV 8;
 php bets.php $raceDate;
+for i in `seq 1 56`; 
+do 
+    php bets.php $raceDate $i;
+done
+php agregate.php $raceDate;
