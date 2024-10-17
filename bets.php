@@ -187,7 +187,7 @@ for ($raceNumber = 1; $raceNumber <= $numberOfRaces; $raceNumber++) {
     $condition2 = !empty($winInter);
     $racetext .= "\t\t'bets' => [\n";
     if(count(array_intersect($favorites, $winInter)) >= 2){
-        $racetext .= "\t\t\t'win/qin/qpl/trio $revision' => '(Q) " . implode(", ", $favorites) . "',\n"; 
+        $racetext .= "\t\t\t'win/qin/qpl/trio(\$10 $revision)' => '(Q) " . implode(", ", $favorites) . "',\n"; 
     }
     if(count($favorites) > 1 && !empty($winInter) && empty(array_intersect($winInter, $favorites))) {
         $union = array_values(array_unique(array_merge($winInter, $favorites)));

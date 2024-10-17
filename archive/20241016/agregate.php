@@ -6,7 +6,7 @@ return [
 		Race 1
 		*/
 		'favorites' => '(F) 5, 7, 8',
-		'win/qin/qpl/trio ' => '(Q) 5, 7, 8',
+		'win/qin/qpl/trio($10 )' => '(Q) 5, 7, 8',
 		'place(end-favorites )' => '8',
 		'super sure bet' => 'super sure place 8',
 		'places($10)' => '8',
@@ -18,7 +18,7 @@ return [
 		Race 2
 		*/
 		'favorites' => '(F) 5, 7, 12',
-		'win/qin/qpl/trio ' => '(Q) 5, 7, 12',
+		'win/qin/qpl/trio($10 )' => '(Q) 5, 7, 12',
 	],
 	'3' => [
 		/**
