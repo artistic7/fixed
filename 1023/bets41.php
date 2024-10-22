@@ -24,7 +24,7 @@ return [
 		/**
 		Race 2
 		*/
-		'favorites' => '11',
+		'favorites' => '3, 11',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'suggestions' => [
 			'win' => '',
@@ -37,26 +37,28 @@ return [
 		'bets' => [
 		],
 		'total bets' => 0,
-		'wp' => '',//count wp: 0
+		'wp' => '3',//count wp: 1
 	],
 	'3' => [
 		/**
 		Race 3
 		*/
-		'favorites' => '7',
+		'favorites' => '6, 7',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',
 		'suggestions' => [
-			'win' => '',
-			'qin' => '',
-			'trio' => '',//count trio: 0
+			'win' => '3, 5, 8',
+			'qin' => '1, 3, 5, 7, 8',
+			'trio' => '1, 3, 5, 6, 7, 8, 9',//count trio: 7
 			'inter' => '',
 		],
-		'win inter' => '1, 3, 4, 5, 6, 7, 8, 9, 11',
+		'win inter' => '1, 3, 5, 6, 7, 8, 11',
+		'win inter 2' => '3, 5, 8',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 9',
 		'bets' => [
+			'win/qin/qpl/trio($10 41)' => '(Q) 6, 7',
 		],
 		'total bets' => 0,
-		'wp' => '7',//count wp: 1
+		'wp' => '6, 7',//count wp: 2
 	],
 	'4' => [
 		/**

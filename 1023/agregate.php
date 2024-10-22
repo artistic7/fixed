@@ -11,13 +11,17 @@ return [
 		/**
 		Race 2
 		*/
-		'favorites' => '(F) 11',
+		'favorites' => '(F) 3, 11',
+		'win(union )' => '3, 4, 7, 11',
+		'unions($10)' => '3, 4, 7, 11',
+		'experimental($10)' => '3, 4, 7, 11',
 	],
 	'3' => [
 		/**
 		Race 3
 		*/
-		'favorites' => '(F) 7',
+		'favorites' => '(F) 6, 7',
+		'win/qin/qpl/trio($10 )' => '(Q) 6, 7',
 	],
 	'4' => [
 		/**
