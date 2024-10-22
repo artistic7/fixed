@@ -24,22 +24,22 @@ return [
 		/**
 		Race 2
 		*/
-		'favorites' => '3, 11',
+		'favorites' => '3, 5, 11',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'suggestions' => [
-			'win' => '',
-			'qin' => '',
-			'trio' => '',//count trio: 0
-			'inter' => '',
+			'win' => '3, 5, 7, 9',
+			'qin' => '1, 3, 4, 5, 7, 9, 12',
+			'trio' => '1, 3, 4, 5, 7, 9, 10, 12',//count trio: 8
+			'inter' => '3, 5',
 		],
-		'win inter' => '4, 7',
+		'win inter' => '7',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',
 		'bets' => [
-			'win(union 13)' => '3, 4, 7, 11',
-			'win(experimental 13)' => '3, 4, 7, 11',
+			'win(union 13)' => '3, 5, 7, 11',
+			'win(experimental 13)' => '3, 5, 7, 11',
 		],
 		'total bets' => 400,
-		'wp' => '3, 11',//count wp: 2
+		'wp' => '3, 5, 11',//count wp: 3
 	],
 	'3' => [
 		/**
