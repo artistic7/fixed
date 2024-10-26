@@ -31,7 +31,6 @@ return [
 		Race 5
 		*/
 		'favorites' => '(F) 10, 11',
-		'win(union 29)' => '1, 3, 10, 11',
 		'unions($10)' => '1, 3, 10, 11',
 		'experimental($10)' => '1, 3, 10, 11',
 	],
@@ -66,10 +65,7 @@ return [
 		/**
 		Race 9
 		*/
-		'favorites' => '(F) 3, 4, 9',
-		'win/qin/qpl/trio($10 )' => '(Q) 3, 4, 9',
-		'place(end-favorites )' => '9',
-		'super sure bet' => 'super sure place 9',
+		'favorites' => '(F) 3, 4, 9, 10',
 		'places($10)' => '9',
 		'sures($10)' => '9',
 		'super sures($10)' => '9',
