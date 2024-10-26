@@ -85,15 +85,16 @@ return [
 		/**
 		Race 5
 		*/
-		'favorites' => '10, 11',
+		'favorites' => '9, 10, 11',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'suggestions' => [
-			'win' => '',
-			'qin' => '',
-			'trio' => '',//count trio: 0
+			'win' => '3',
+			'qin' => '3, 7',
+			'trio' => '3, 7, 9',//count trio: 3
 			'inter' => '',
 		],
-		'win inter' => '1, 11',
+		'win inter' => '',
+		'win inter 2' => '3',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8',
 		'bets' => [
 		],
