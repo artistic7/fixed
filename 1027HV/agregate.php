@@ -59,7 +59,13 @@ return [
 		/**
 		Race 8
 		*/
-		'favorites' => '(F) 2, 10',
+		'favorites' => '(F) 2, 8, 10',
+		'win/qin/qpl/trio($10 )' => '(Q) 2, 8, 10',
+		'place(end-favorites )' => '10',
+		'super sure bet' => 'super sure place 10',
+		'places($10)' => '10',
+		'sures($10)' => '10',
+		'super sures($10)' => '10',
 	],
 	'9' => [
 		/**
