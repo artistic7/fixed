@@ -45,7 +45,13 @@ return [
 		/**
 		Race 7
 		*/
-		'favorites' => '(F) 2, 5',
+		'favorites' => '(F) 2, 4, 5',
+		'win/qin/qpl/trio($10 )' => '(Q) 2, 4, 5',
+		'place(end-favorites )' => '5',
+		'super sure bet' => 'super sure place 5',
+		'places($10)' => '5',
+		'sures($10)' => '5',
+		'super sures($10)' => '5',
 	],
 	'8' => [
 		/**
@@ -57,7 +63,13 @@ return [
 		/**
 		Race 9
 		*/
-		'favorites' => '(F) 3, 4',
+		'favorites' => '(F) 3, 4, 9',
+		'win/qin/qpl/trio($10 )' => '(Q) 3, 4, 9',
+		'place(end-favorites )' => '9',
+		'super sure bet' => 'super sure place 9',
+		'places($10)' => '9',
+		'sures($10)' => '9',
+		'super sures($10)' => '9',
 	],
 	'10' => [
 		/**

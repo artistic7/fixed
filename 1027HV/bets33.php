@@ -121,21 +121,25 @@ return [
 		/**
 		Race 7
 		*/
-		'favorites' => '2, 5',
+		'favorites' => '2, 4, 5',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'suggestions' => [
-			'win' => '2, 7',
-			'qin' => '1, 2, 4, 7',
-			'trio' => '1, 2, 4, 5, 7, 11',//count trio: 6
-			'inter' => '2',
+			'win' => '2, 4, 7, 10',
+			'qin' => '1, 2, 4, 5, 7, 10, 11',
+			'trio' => '1, 2, 4, 5, 7, 8, 10, 11, 12',//count trio: 9
+			'inter' => '2, 4',
 		],
 		'win inter' => '1, 2, 4, 7, 10',
-		'win inter 2' => '2, 7',
+		'win inter 2' => '2',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 9',
 		'bets' => [
+			'win/qin/qpl/trio($10 33)' => '(Q) 2, 4, 5',
+			'place(end-favorites 33)' => '5',
+			'place(end-wp 33)' => '5',
+			'super sure bet' => 'super sure place 5',
 		],
-		'total bets' => 0,
-		'wp' => '2, 5',//count wp: 2
+		'total bets' => 300,
+		'wp' => '2, 4, 5',//count wp: 3
 	],
 	'8' => [
 		/**
@@ -160,21 +164,25 @@ return [
 		/**
 		Race 9
 		*/
-		'favorites' => '3, 4',
+		'favorites' => '3, 4, 9',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'suggestions' => [
-			'win' => '2, 4, 6, 9, 12',
-			'qin' => '2, 3, 4, 6, 7, 9, 11, 12',
-			'trio' => '2, 3, 4, 6, 7, 8, 9, 11, 12',//count trio: 9
-			'inter' => '4',
+			'win' => '1, 2, 3, 4, 6, 9, 10, 12',
+			'qin' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
+			'trio' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',//count trio: 12
+			'inter' => '3, 4, 9',
 		],
-		'win inter' => '1, 2, 4, 5, 6, 7, 8, 9, 12',
-		'win inter 2' => '2, 4, 6, 9, 12',
+		'win inter' => '1, 2, 4, 8, 9, 12',
+		'win inter 2' => '12',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',
 		'bets' => [
+			'win/qin/qpl/trio($10 33)' => '(Q) 3, 4, 9',
+			'place(end-favorites 33)' => '9',
+			'place(end-wp 33)' => '9',
+			'super sure bet' => 'super sure place 9',
 		],
-		'total bets' => 0,
-		'wp' => '3, 4',//count wp: 2
+		'total bets' => 300,
+		'wp' => '3, 4, 9',//count wp: 3
 	],
 	'10' => [
 		/**
@@ -197,9 +205,9 @@ return [
 		'wp' => '1',//count wp: 1
 	],
 ];
-//total place end favorites: 0
-//total place end wp: 0
+//total place end favorites: -200
+//total place end wp: -200
 //total place wp: 0
-//total sure place: 0
+//total sure place: -200
 //total win: 0
 //total: 0
