@@ -36,9 +36,7 @@ return [
 		/**
 		Race 6
 		*/
-		'favorites' => '(F) 10, 11',
-		'win(union )' => '7, 10, 11, 12',
-		'place(wp )' => '10',
+		'favorites' => '(F) 7, 10, 11',
 		'placesWP($30)' => '10',
 		'unions($10)' => '7, 10, 11, 12',
 		'experimental($10)' => '7, 10, 11, 12',
