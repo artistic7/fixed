@@ -29,7 +29,7 @@ return [
 		/**
 		Race 4
 		*/
-		'favorites' => '(F) 1',
+		'favorites' => '(F) 1, 6',
 	],
 	'5' => [
 		/**
@@ -38,7 +38,6 @@ return [
 		'favorites' => '(F) 8, 9, 10, 11',
 		'places($10)' => '11',
 		'unions($10)' => '1, 3, 9, 10, 11',
-		'experimental($10)' => '1, 3, 9, 10, 11',
 	],
 	'6' => [
 		/**
@@ -47,7 +46,6 @@ return [
 		'favorites' => '(F) 7, 9, 10, 11',
 		'placesWP($30)' => '10',
 		'unions($10)' => '7, 10, 11, 12',
-		'experimental($10)' => '7, 10, 11, 12',
 	],
 	'7' => [
 		/**
@@ -89,7 +87,6 @@ return [
 		*/
 		'favorites' => '(F) 1, 6',
 		'unions($10)' => '1, 3, 6, 7, 10',
-		'experimental($10)' => '1, 3, 6, 7, 10',
 		'win(union 20)' => '1, 3, 6, 7',
 		'win(union 45)' => '1, 6, 7, 10',
 		'win(union 50)' => '1, 3, 6, 10',
