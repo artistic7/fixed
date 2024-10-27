@@ -12,7 +12,10 @@ return [
 		/**
 		Race 2
 		*/
-		'favorites' => '(F) 1, 9',
+		'favorites' => '(F) 1, 7, 9',
+		'place(end-favorites )' => '9',
+		'places($10)' => '9',
+		'sures($10)' => '9',
 	],
 	'3' => [
 		/**
