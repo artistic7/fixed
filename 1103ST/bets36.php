@@ -72,22 +72,25 @@ return [
 		/**
 		Race 4
 		*/
-		'favorites' => '2, 5',
+		'favorites' => '2, 5, 8',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'suggestions' => [
-			'win' => '2, 4, 5',
-			'qin' => '2, 4, 5, 6, 7, 10',
-			'trio' => '1, 2, 4, 5, 6, 7, 10',//count trio: 7
+			'win' => '2, 4, 5, 11',
+			'qin' => '2, 4, 5, 6, 7, 10, 11, 12',
+			'trio' => '1, 2, 4, 5, 6, 7, 10, 11, 12',//count trio: 9
 			'inter' => '2, 5',
 		],
-		'win inter' => '1, 2, 4, 5',
-		'win inter 2' => '2, 4, 5',
+		'win inter' => '1, 2, 5',
+		'win inter 2' => '2',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'bets' => [
-			'win/qin/qpl/trio($10 36)' => '(Q) 2, 5',
+			'win/qin/qpl/trio($10 36)' => '(Q) 2, 5, 8',
+			'place(end-favorites 36)' => '8',
+			'place(end-wp 36)' => '8',
+			'super sure bet' => 'super sure place 8',
 		],
-		'total bets' => 0,
-		'wp' => '2, 5',//count wp: 2
+		'total bets' => 300,
+		'wp' => '2, 5, 8',//count wp: 3
 	],
 	'5' => [
 		/**
@@ -171,23 +174,21 @@ return [
 		/**
 		Race 9
 		*/
-		'favorites' => '2, 3, 4, 11',
+		'favorites' => '2, 3, 4, 9, 11',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'suggestions' => [
 			'win' => '1, 2, 3, 4, 5, 6, 8, 9, 10, 12',
 			'qin' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 			'trio' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14',//count trio: 13
-			'inter' => '2, 3, 4',
+			'inter' => '2, 3, 4, 9',
 		],
-		'win inter' => '1, 2, 5, 6, 9, 12',
-		'win inter 2' => '6',
+		'win inter' => '1, 2, 9, 12',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10',
 		'bets' => [
-			'place(end-favorites 36)' => '11',
-			'place(end-wp 36)' => '4',
+			'win/qin/qpl/trio($10 36)' => '(Q) 2, 3, 4, 9, 11',
 		],
-		'total bets' => 200,
-		'wp' => '2, 3, 4',//count wp: 3
+		'total bets' => 0,
+		'wp' => '2, 3, 4, 9',//count wp: 4
 	],
 	'10' => [
 		/**
@@ -215,6 +216,6 @@ return [
 //total place end favorites: -400
 //total place end wp: -400
 //total place wp: 0
-//total sure place: -200
+//total sure place: -300
 //total win: 0
 //total: 0
