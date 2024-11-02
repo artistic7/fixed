@@ -43,7 +43,8 @@ return [
 		/**
 		Race 6
 		*/
-		'favorites' => '(F) 2',
+		'favorites' => '(F) 2, 5',
+		'win/qin/qpl/trio($10 )' => '(Q) 2, 5',
 	],
 	'7' => [
 		/**
