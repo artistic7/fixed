@@ -188,7 +188,7 @@ for ($raceNumber = 1; $raceNumber <= $numberOfRaces; $raceNumber++) {
     sort($allValues);
     $racetext .= "\t\t'allValues' => '" . implode(", ", $allValues) . "',\n";
     $condition1 = !empty($winInter2);
-    $condition2 = !empty($winInter);
+    $condition1 = !empty(array_intersect($inter, $winInter, $winInter2));
     $racetext .= "\t\t'bets' => [\n";
     if(count(array_intersect($favorites, $winInter)) >= 2){
         $racetext .= "\t\t\t'win/qin/qpl/trio(\$10 $revision)' => '(Q) " . implode(", ", $favorites) . "',\n"; 
